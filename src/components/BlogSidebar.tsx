@@ -7,10 +7,10 @@ export default function BlogSidebar() {
   const pathname = usePathname();
 
   const links = [
-    { href: "/blog", label: "📋 All Posts" },
-    { href: "/blog/frontend", label: "🎨 Frontend" },
-    { href: "/blog/backend", label: "⚙️ Backend" },
-    { href: "/blog/mobile", label: "📱 Mobile Dev" },
+    { href: "/blog", label: "All Posts" },
+    { href: "/blog/frontend", label: " Frontend" },
+    { href: "/blog/backend", label: " Backend" },
+    { href: "/blog/mobile", label: " Mobile Dev" },
   ];
 
   return (
