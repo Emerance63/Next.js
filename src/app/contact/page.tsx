@@ -22,9 +22,7 @@ export default function ContactPage() {
         <p className="text-sm text-text-muted">
           Email: <span className="text-foreground">hello@myjourney.dev</span>
         </p>
-        <p className="text-sm text-text-muted">
-          I keep this page simple so you can reach out quickly.
-        </p>
+        
       </section>
     </div>
   );
